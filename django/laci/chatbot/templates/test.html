@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>Home</title>
+</head>
+<body>Hello World!</body>
+<script>
+
+var xhr = new XMLHttpRequest();
+xhr.open("POST", "/setPath", true);
+xhr.setRequestHeader('Content-Type', 'application/json');
+xhr.send(JSON.stringify({
+    path: '123'
+}));
+xhr.onload = function() {
+  console.log(this.responseText);
+  var data = JSON.parse(this.responseText);
+  console.log(data);
+}
+
+</script>
+</html>

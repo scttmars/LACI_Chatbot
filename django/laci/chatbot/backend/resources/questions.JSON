@@ -1,0 +1,241 @@
+{
+    "question" : [
+        {
+            "id" : 0,
+            "text" : "Do you want a copy left license?",
+            "priority" : 1,
+            "licenseField" : "CopyLeft",
+            "response" : "",
+            "inverseAnswer" : "N"
+        },
+        {
+            "id" : 2,
+            "text" : "Would you like a strong copyleft license?",
+            "priority" : 1000,
+            "licenseField" : "CopyLeft",
+            "response" : "",
+            "inverseAnswer" : "N"
+        },
+        {
+            "id" : 3,
+            "text" : "Do you want a GPL compatible license?",
+            "priority" : 1000,
+            "licenseField" : "GPLCompatible",
+            "response" : "",
+            "inverseAnswer" : "N"
+        },
+        {
+            "id" : 4,
+            "text" : "Do you want an apache compatible license?",
+            "priority" : 1000,
+            "licenseField" : "ApacheCompatible",
+            "response" : "",
+            "inverseAnswer" : "N"
+        },
+        {
+            "id" : 5,
+            "text" : "Do you want a BSD compatible license?",
+            "priority" : 1000,
+            "licenseField" : "BSDCompatible",
+            "response" : "",
+            "inverseAnswer" : "N"
+        },
+        {
+            "id" : 6,
+            "text" : "Do you want to be able to edit the codebase in the future?",
+            "priority" : 2,
+            "licenseField" : "ModifyCode",
+            "response" : "",
+            "inverseAnswer" : ""
+        },
+        {
+            "id" : 7,
+            "text" : "Do you plan to sell software from this codebase?",
+            "priority" : 2,
+            "licenseField" : "RedistributeForProfit",
+            "response" : "",
+            "inverseAnswer" : "N"
+        },
+        {
+            "id" : 8,
+            "text" : "Do you want to publish your software?",
+            "priority" : 2,
+            "licenseField" : "PrivateDistribution",
+            "response" : "",
+            "inverseAnswer" : "N"
+        },
+        {
+            "id" : 9,
+            "text" : "Do you want to distribute binaries?",
+            "priority" : 3,
+            "licenseField" : "Binaries",
+            "response" : "",
+            "inverseAnswer" : "N"
+        },
+        {
+            "id" : 10,
+            "text" : "Do you want a license that comes with a patent grant?",
+            "priority" : 4,
+            "licenseField" : "PatentGrant",
+            "response" : "",
+            "inverseAnswer" : "N"
+        },
+        {
+            "id" : 11,
+            "text" : "Do you want a license that comes with a trademark grant?",
+            "priority" : 4,
+            "licenseField" : "TrademarkGrant",
+            "response" : "",
+            "inverseAnswer" : "N"
+        },
+        {
+            "id" : 12,
+            "text" : "Are you altering another codebase?",
+            "priority" : 1000,
+            "licenseField" : "",
+            "response" : "",
+            "inverseAnswer" : ""
+        },
+        {
+            "id" : 13,
+            "text" : "Do you want other people to be able to modify and use your codebase?",
+            "priority" : 2,
+            "licenseField" : "ModifyCode",
+            "response" : "",
+            "inverseAnswer" : "N"
+        },
+        {
+            "id" : 14,
+            "text" : "Do you want other people to be able to create derivative works?",
+            "priority" : 3,
+            "licenseField" : "DerivativeWorks",
+            "response" : "",
+            "inverseAnswer" : "N"
+        },
+        {
+            "id" : 15,
+            "text" : "Do you want to use an opensource license?",
+            "priority" : 101,
+            "licenseField" : "",
+            "response" : "",
+            "inverseAnswer" : "N"
+        },
+        {
+            "id" : 16,
+            "text" : "Do you want the license to be simple and permissive?",
+            "priority" : 1000,
+            "licenseField" : "CopyLeft",
+            "response" : "",
+            "inverseAnswer" : "Y"
+        },
+        {
+            "id" : 17,
+            "text" : "Do you want your software to be able to do whatever they want with the project except distribute closed source versions?",
+            "priority" : 4,
+            "licenseField" : "PublicDistribution",
+            "response" : "",
+            "inverseAnswer" : "N"
+        },
+        {
+            "id" : 18,
+            "text" : "Is the project based on existing software?",
+            "priority" : 3,
+            "licenseField" : "",
+            "response" : "",
+            "inverseAnswer" : ""
+        },
+        {
+            "id" : 19,
+            "text" : "Is your code used directly as an executable file?",
+            "priority" : 3,
+            "licenseField" : "Binaries",
+            "response" : "",
+            "inverseAnswer" : "N"
+        },
+        {
+            "id" : 20,
+            "text" : "Is your code used as a library?",
+            "priority" : 3,
+            "licenseField" : "",
+            "response" : "",
+            "inverseAnswer" : ""
+        },
+        {
+            "id" : 21,
+            "text" : "Would you like to see possible licenses?",
+            "priority" : 3,
+            "licenseField" : "",
+            "response" : "",
+            "inverseAnswer" : ""
+        },
+        {
+            "id" : 23,
+            "text" : "Do you own the entire codebase?",
+            "priority" : 0,
+            "licenseField" : "",
+            "response" : "",
+            "inverseAnswer" : ""
+        },
+        {
+            "id" : 24,
+            "text" : "Are you okay including a copyright?",
+            "priority" : 1,
+            "licenseField" : "MustIncludeCopyright",
+            "response" : "",
+            "inverseAnswer" : "N"
+        },
+        {
+            "id" : 25,
+            "text" : "Do you want to use the same license for the entire work?",
+            "priority" : 2,
+            "licenseField" : "SameLicense",
+            "response" : "",
+            "inverseAnswer" : "N"
+        },
+        {
+            "id" : 26,
+            "text" : "Are you okay with someone profitting from derivative works?",
+            "priority" : 3,
+            "licenseField" : "DerivativeWorksForProfit",
+            "response" : "",
+            "inverseAnswer" : ""
+        },
+        {
+            "id" : 27,
+            "text" : "Do you want modified source code to be required to be published?",
+            "priority" : 3,
+            "licenseField" : "DistributeSource",
+            "response" : "",
+            "inverseAnswer" : ""
+        },
+        {
+            "id" : 28,
+            "text" : "Are you okay with the license to being included in all files?",
+            "priority" : 4,
+            "licenseField" : "IncludedInFiles",
+            "response" : "",
+            "inverseAnswer" : "N"
+        },
+        {
+            "id" : 31,
+            "text" : "Do you want to be able to make a derivative license?",
+            "priority" : 4,
+            "licenseField" : "DerivativeLicense",
+            "response" : "",
+            "inverseAnswer" : "N"
+        },
+        {
+            "id" : 32,
+            "text" : "Do you want a debian compatible license?",
+            "priority" : 5,
+            "licenseField" : "DebianFSGCompatible",
+            "response" : "",
+            "inverseAnswer" : "N"
+        }
+
+    
+    ]
+    
+    
+    }
+    

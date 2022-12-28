@@ -1,0 +1,11 @@
+<html>
+<head>
+<title>Home</title>
+</head>
+<form>
+{% csrf_token %}
+<label for="project_path">Project Path: </label>
+<input id="project_path" type="text" name="project_path" maxlength="100" required>
+<button type="submit" name="python_code" formmethod="post">Check Dependencies</button>
+</form>
+</html>
